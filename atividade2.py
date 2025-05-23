@@ -1,8 +1,9 @@
-#soma de 2
-n1= float(input('numero 1:'))
-n2= float(input('numero 2:'))
-calculo= n1+n2
-print('resultado soma',n1+n2)
-print('resultado subtração',n1-n2)
-print('resultado multiplicação',n1*n2)
-print('resultado divisão',n1/n2)
+# float() int() str() bool()
+
+numero_inteiro= 10
+print(type(numero_inteiro))
+print(type(str(numero_inteiro)))
+print(float(numero_inteiro))
+print(type(bool(numero_inteiro)))
+
+
